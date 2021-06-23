@@ -1,0 +1,8 @@
+[TRAIN]
+DATA_FOLDER = ./data/
+TRAIN_DATA = train.csv
+
+[KAGGLE]
+COMPETITION= commonlitreadabilityprize
+DATA_FOLDER = ./data/
+DOWNLOAD_FILE = commonlitreadabilityprize.zip
