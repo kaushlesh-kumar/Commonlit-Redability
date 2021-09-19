@@ -5,6 +5,7 @@ import os
 config = configparser.ConfigParser()
 config.read('./config/config')
 
+# Script to download data from Kaggle
 api = KaggleApi()
 api.authenticate()
 print(config.get('KAGGLE','COMPETITION'))
@@ -15,4 +16,4 @@ zf = ZipFile(filepath)
 zf.extractall(config.get('KAGGLE','DATA_FOLDER')) #save files in selected folder
 zf.close()
 
-os.remove(filepath) 
+os.remove(filepath)

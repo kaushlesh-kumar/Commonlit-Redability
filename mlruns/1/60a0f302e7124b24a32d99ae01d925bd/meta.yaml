@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kaushlesh/CommonLit%20Readability/mlruns/1/60a0f302e7124b24a32d99ae01d925bd/artifacts
+end_time: 1632037727971
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: 60a0f302e7124b24a32d99ae01d925bd
+run_uuid: 60a0f302e7124b24a32d99ae01d925bd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1632037727811
+status: 3
+tags: []
+user_id: kaushlesh

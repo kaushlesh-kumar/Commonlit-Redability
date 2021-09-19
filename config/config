@@ -1,8 +1,15 @@
 [TRAIN]
 DATA_FOLDER = ./data/
 TRAIN_DATA = train.csv
+DALE_CHALL = Dale_Chall_List.txt
+MODEL = ./model/
 
 [KAGGLE]
 COMPETITION= commonlitreadabilityprize
 DATA_FOLDER = ./data/
 DOWNLOAD_FILE = commonlitreadabilityprize.zip
+
+[COLUMNS]
+COLUMNS_TO_DROP = id,url_legal,license,standard_error
+TEXT_COLUMN = excerpt
+TARGET_COLUMN = target

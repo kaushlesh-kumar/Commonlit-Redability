@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kaushlesh/CommonLit%20Readability/mlruns/1/cecc451fd5834babba42990caa27bef6/artifacts
+end_time: 1632035321692
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: cecc451fd5834babba42990caa27bef6
+run_uuid: cecc451fd5834babba42990caa27bef6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1632035321656
+status: 3
+tags: []
+user_id: kaushlesh
