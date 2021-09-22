@@ -1,0 +1,128 @@
+2021-09-22 18:20:10,142:INFO:Initializing load_model()
+2021-09-22 18:20:10,142:INFO:load_model(model_name=./model//best_model, platform=None, authentication=None, verbose=True)
+2021-09-22 18:24:10,769:INFO:Initializing load_model()
+2021-09-22 18:24:10,770:INFO:load_model(model_name=./model//best_model, platform=None, authentication=None, verbose=True)
+2021-09-22 18:26:01,388:INFO:Initializing load_model()
+2021-09-22 18:26:01,389:INFO:load_model(model_name=./model/best_model, platform=None, authentication=None, verbose=True)
+2021-09-22 18:30:24,453:INFO:Initializing load_model()
+2021-09-22 18:30:24,454:INFO:load_model(model_name=./model/best_model, platform=None, authentication=None, verbose=True)
+2021-09-22 18:34:29,412:INFO:Initializing load_model()
+2021-09-22 18:34:29,413:INFO:load_model(model_name=./model/best_model, platform=None, authentication=None, verbose=True)
+2021-09-22 18:41:21,323:INFO:Initializing load_model()
+2021-09-22 18:41:21,324:INFO:load_model(model_name=/home/kaushlesh/CommonLit Readability/src/./model/best_model, platform=None, authentication=None, verbose=True)
+2021-09-22 18:42:11,048:INFO:Initializing load_model()
+2021-09-22 18:42:11,048:INFO:load_model(model_name=/home/kaushlesh/CommonLit Readability/src/model/best_model, platform=None, authentication=None, verbose=True)
+2021-09-22 18:44:27,098:INFO:Initializing load_model()
+2021-09-22 18:44:27,098:INFO:load_model(model_name=/home/kaushlesh/CommonLit Readability/model, platform=None, authentication=None, verbose=True)
+2021-09-22 18:45:40,548:INFO:Initializing load_model()
+2021-09-22 18:45:40,549:INFO:load_model(model_name=/home/kaushlesh/CommonLit Readability/model/best_model, platform=None, authentication=None, verbose=True)
+2021-09-22 18:45:40,608:INFO:Initializing predict_model()
+2021-09-22 18:45:40,608:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='regression',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least...
+                ('feature_select', 'passthrough'),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='target',
+                                       threshold=0.95)),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply'], ml_usecase='regression',
+                             n_jobs=-1, random_state=123, subclass='binary',
+                             target='target',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'), ['trained_model', BayesianRidge()]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-09-22 18:45:40,609:INFO:Checking exceptions
+2021-09-22 18:45:40,610:INFO:Preloading libraries
+2021-09-22 18:46:08,623:INFO:Initializing load_model()
+2021-09-22 18:46:08,624:INFO:load_model(model_name=/home/kaushlesh/CommonLit Readability/model/best_model, platform=None, authentication=None, verbose=True)
+2021-09-22 18:46:08,671:INFO:Initializing predict_model()
+2021-09-22 18:46:08,672:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='regression',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least...
+                ('feature_select', 'passthrough'),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='target',
+                                       threshold=0.95)),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply'], ml_usecase='regression',
+                             n_jobs=-1, random_state=123, subclass='binary',
+                             target='target',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'), ['trained_model', BayesianRidge()]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-09-22 18:46:08,672:INFO:Checking exceptions
+2021-09-22 18:46:08,672:INFO:Preloading libraries
+2021-09-22 18:46:46,683:INFO:Initializing load_model()
+2021-09-22 18:46:46,684:INFO:load_model(model_name=/home/kaushlesh/CommonLit Readability/model/best_model, platform=None, authentication=None, verbose=True)
+2021-09-22 18:46:46,740:INFO:Initializing predict_model()
+2021-09-22 18:46:46,741:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='regression',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least...
+                ('feature_select', 'passthrough'),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='target',
+                                       threshold=0.95)),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply'], ml_usecase='regression',
+                             n_jobs=-1, random_state=123, subclass='binary',
+                             target='target',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'), ['trained_model', BayesianRidge()]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-09-22 18:46:46,741:INFO:Checking exceptions
+2021-09-22 18:46:46,741:INFO:Preloading libraries
+2021-09-22 18:47:44,210:INFO:Initializing load_model()
+2021-09-22 18:47:44,211:INFO:load_model(model_name=/home/kaushlesh/CommonLit Readability/model/best_model, platform=None, authentication=None, verbose=True)
+2021-09-22 18:47:44,270:INFO:Initializing predict_model()
+2021-09-22 18:47:44,271:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(display_types=False,
+                                      ml_usecase='regression',
+                                      target='target')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least...
+                ('feature_select', 'passthrough'),
+                ('fix_multi',
+                 Fix_multicollinearity(correlation_with_target_preference=None,
+                                       target_variable='target',
+                                       threshold=0.95)),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply'], ml_usecase='regression',
+                             n_jobs=-1, random_state=123, subclass='binary',
+                             target='target',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'), ['trained_model', BayesianRidge()]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-09-22 18:47:44,271:INFO:Checking exceptions
+2021-09-22 18:47:44,272:INFO:Preloading libraries

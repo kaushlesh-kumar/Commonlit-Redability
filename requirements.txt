@@ -1,0 +1,8 @@
+numpy==1.19.5
+pandas==1.2.5
+nltk==3.6.2
+streamlit==0.88.0
+spacy==2.3.7
+pycaret==2.3.1
+
+
