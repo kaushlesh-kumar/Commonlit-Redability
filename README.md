@@ -1,4 +1,4 @@
-# Commonlit-Redability - A classical machine learning approach
+# Commonlit-Readability - A classical machine learning approach
 
 This is a classical machine learning approach to solve the [CommonLit-Readability Prize challenge](https://www.kaggle.com/c/commonlitreadabilityprize).
 While the winner entries used ensamble of tranformer based models to acieve the winning score, this approach take in the domain based approach to create hypotheses and features which are then used to train classicla  ML models to predict the scores. 
